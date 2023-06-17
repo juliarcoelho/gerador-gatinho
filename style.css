@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    font-family: 'Sniglet', cursive;
+    font-size: 100px;
+}
+#imagem-gato{
+    text-align: center;
+    max-width: 20%;
+    max-height: 25%;
+}
+#botao-novo-gato{
+    font-size: 25px;
+    align-self: center;
+    width: 310px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px
+}
+#like{
+    font-size: 25px;
+    align-self: center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: green; 
+    border-radius: 10px;
+    
+}
+#dislike{
+    font-size: 25px;
+    align-self: center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}

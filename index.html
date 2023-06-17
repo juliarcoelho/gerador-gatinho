@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Qual gatinho?</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Qual gatinho?</h1>
+    </header>
+    <main>
+        <div id="imagem">
+            <img id="imagem-gato" src="" alt="Imagem de um gato">
+        </div>
+        <div id="botao-img">
+            <button id="botao-novo-gato" onclick="fetchImagemAleatoriaGato()">novo gatinho</button>
+        </div>
+        <div id="botao-interacao">
+            <input type="button" value="gostei" id="like" onclick="like()">
+            <input type="button" value="não gostei" id="dislike" onclick="dislike()">
+            <p>likes: <span id="contador-likes">0</span></p>
+            <p>dislikes: <span id="contador-dislikes">0</span></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
